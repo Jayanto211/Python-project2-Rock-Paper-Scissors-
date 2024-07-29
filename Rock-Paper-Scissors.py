@@ -22,3 +22,8 @@ while True:
         if computer_action == "paper":
             print("Scissors cuts paper! You win!")
         else:
+            print("Rock smashes scissors! You lose.")
+
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break
